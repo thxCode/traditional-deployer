@@ -12,7 +12,7 @@ provider "multipass" {}
 
 variable "instances" {
   type    = number
-  default = 3
+  default = 1
 }
 
 resource "multipass_instance" "example" {

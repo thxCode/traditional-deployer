@@ -17,7 +17,7 @@ provider "courier" {}
 
 variable "instances" {
   type    = number
-  default = 3
+  default = 1
 }
 
 data "multipass_instance" "example" {
